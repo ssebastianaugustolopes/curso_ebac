@@ -1,2 +1,2 @@
-# curso_ebac
- Repositório das aulas do curso de programação EBAC
+# course_ebac
+Repositório referente as aulas do curso de JavaScript EBAC

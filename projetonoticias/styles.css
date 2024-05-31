@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5e9;
+}
+
+header {
+    background-color: #424242;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section h2 {
+    color: #1b5e20;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para cada seção */
+section.esportes {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+section.economia {
+    background-color: #e3f2fd;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+section.entretenimento {
+    background-color: #fce4ec;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+section.tecnologia {
+    background-color: #9dadb5;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+/* Estilos para os artigos */
+article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+article img {
+    max-width: 60%;
+    border-radius: 5px;
+}
+
+article p {
+    color: #757575;
+}
+
+article h3 {
+    color: #1b5e20;
+    margin: 1rem 0 0.5rem 0;
+}
+
+article a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #388e3c;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+article a:hover {
+    background-color: #2e7d32;
+}
